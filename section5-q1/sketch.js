@@ -6,7 +6,7 @@ function setup(){
 }
 function draw(){
 background(255);
-balloon("I love keyakizaka46",mouseX, mouseY);
+balloon("I love you",mouseX, mouseY);
 }
 
 function balloon( t,x,y ){
