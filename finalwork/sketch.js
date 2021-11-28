@@ -32,19 +32,19 @@ function draw(){
 
   if(  sabun < 1000 * 2 ){
     fill(237, 197, 194)
-    person(width/5, height*2/5,50);
+    person(width/5, height*2/5,width/10);
   }
 
 
   if(  sabun > 1000 * 2 ){
   fill(237, 197, 194);
-  person(c,d,50);
+  person(c,d,width/10);
   c -= 0.8;
   if(c < 0){c=0;};
   }
 
    if(  sabun > 1000 * 7){
-  person(g,h,50);
+  person(g,h,width/10);
   g += 0.8;
   if(g > width/5){g=width/5;};
    }
@@ -67,9 +67,9 @@ function draw(){
    textSize(width / 20);
 
   fill(237, 197, 194);
-   person(width / 5, height /5 ,50);
+   person(width / 5, height /5 ,width/10);
    fill(206, 214, 242);
-   person(width * 4/5, height * (5 - i) / 5, 50);
+   person(width * 4/5, height * (5 - i) / 5, width/10);
   }
 }
 
